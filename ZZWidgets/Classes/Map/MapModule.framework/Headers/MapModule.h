@@ -1,17 +1,17 @@
 //
 //  MapModule.h
-//  ZZWidgets
+//  MapModule
 //
-//  Created by Flash on 2022/7/25.
+//  Created by 张喆 on 2022/12/29.
 //
 
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ZZWidget : NSObject
+@interface MapModule : NSObject
 
-- (void)beginWidget;
+- (void)mapBegin;
 
 @end
 
