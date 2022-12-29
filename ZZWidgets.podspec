@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZWidgets'
-  s.version          = '1.0.2'
+  s.version          = '1.0.2.1'
   s.summary          = 'A short description of ZZWidgets.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -21,8 +21,6 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'ZZWidgets/**/*'
-  s.public_header_files = 'ZZWidgets/**/*.h'
   s.vendored_frameworks = 'SDK/Core/SportSDK.framework'
   s.frameworks = 'Foundation'
 end
