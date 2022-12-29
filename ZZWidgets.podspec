@@ -20,15 +20,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/meiszhe/ZZWidgets.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
-  s.static_framework = true
 
-  s.source_files = 'ZZWidgets/Classes/**/*'
-  s.public_header_files = 'ZZWidgets/Classes/**/*.h'
-  s.vendored_frameworks = 'ZZWidgets/Classes/SportSDK.framework'
-
-  s.subspec 'Map' do |map|
-    map.source_files = 'ZZWidgets/Classes/Map/**/*'
-    map.public_header_files = 'ZZWidgets/Classes/Map/**/*.h'
-    map.vendored_frameworks = 'ZZWidgets/Classes/Map/MapModule.framework'
-  end
+  s.source_files = 'ZZWidgets/**/*'
+  s.public_header_files = 'ZZWidgets/**/*.h'
+  s.vendored_frameworks = 'SDK/Core/SportSDK.framework'
+  s.frameworks = 'Foundation'
 end
