@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZWidgets'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of ZZWidgets.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -22,12 +22,15 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'ZZWidgets/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZZWidgets' => ['ZZWidgets/Assets/*.png']
-  # }
+  s.public_header_files = 'ZZWidgets/Classes/**/*.h'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-#   s.dependency 'AFNetworking', '~> 4.0'
+  s.subspec 'Pay' do |pay|
+    pay.source_files = 'ZZWidgets/Classes/Pay/**/*'
+    pay.public_header_files = 'ZZWidgets/Classes/Pay/**/*.h'
+  end
+
+  s.subspec 'Map' do |map|
+    map.source_files = 'ZZWidgets/Classes/Map/**/*'
+    map.public_header_files = 'ZZWidgets/Classes/Map/**/*.h'
+  end
 end

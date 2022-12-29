@@ -9,9 +9,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MapModule : NSObject
+@interface ZZWidget : NSObject
 
-- (void)map;
+- (void)beginWidget;
 
 @end
 
