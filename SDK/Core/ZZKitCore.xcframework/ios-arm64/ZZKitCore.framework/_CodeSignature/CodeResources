@@ -8,6 +8,10 @@
 		<data>
 		nwa2Fr5rk0iec23ngFBIe4//Tn0=
 		</data>
+		<key>Headers/ZZContainer.h</key>
+		<data>
+		XCE53F5iJuMVZnfxvGenpCVfCCM=
+		</data>
 		<key>Headers/ZZKitCoreInternal.h</key>
 		<data>
 		ZU7FuavbBom1kFHb++SBLncjw2A=
@@ -28,6 +32,17 @@
 			<key>hash2</key>
 			<data>
 			qBnsv0hn/FaoRWy+42w6d0AcNUcIcK/nCSScv0w10nI=
+			</data>
+		</dict>
+		<key>Headers/ZZContainer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XCE53F5iJuMVZnfxvGenpCVfCCM=
+			</data>
+			<key>hash2</key>
+			<data>
+			s2qKQEkSkuP8WoX5+sohsqgC/g3GFD5l7nwN+m9F314=
 			</data>
 		</dict>
 		<key>Headers/ZZKitCoreInternal.h</key>
