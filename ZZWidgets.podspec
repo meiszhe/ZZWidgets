@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZWidgets'
-  s.version          = '1.0.2.3'
+  s.version          = '1.0.2.4'
   s.summary          = 'A short description of ZZWidgets.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -24,9 +24,10 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'SDK/Core/ZZKitCore.xcframework'
   s.frameworks = 'Foundation'
 
-  s.subspec 'Voice' do |map_module|
-    map_module.vendored_frameworks = "SDK/Voice/ZZKitVoice.xcframework"
-    map_module.frameworks = 'Foundation'
+  s.subspec 'Voice' do |voice_module|
+    voice_module.vendored_frameworks = "SDK/Voice/ZZKitVoice.xcframework"
+    voice_module.frameworks = 'Foundation'
+    voice_module.dependency 'ZZWidgets', '~> 1.0.2.4'
 end
 
 end
