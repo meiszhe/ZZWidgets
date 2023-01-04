@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZWidgets'
-  s.version          = '1.0.2.2'
+  s.version          = '1.0.2.3'
   s.summary          = 'A short description of ZZWidgets.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -21,11 +21,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.vendored_frameworks = 'SDK/Core/SportSDK.framework'
+  s.vendored_frameworks = 'SDK/Core/ZZKitCore.xcframework'
   s.frameworks = 'Foundation'
 
-  s.subspec 'Map' do |map_module|
-    map_module.vendored_frameworks = "SDK/Map/MapModule.framework"
+  s.subspec 'Voice' do |map_module|
+    map_module.vendored_frameworks = "SDK/Voice/ZZKitVoice.xcframework"
     map_module.frameworks = 'Foundation'
 end
 

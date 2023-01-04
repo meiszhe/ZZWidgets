@@ -1,6 +1,0 @@
-framework module MapModule {
-  umbrella header "MapModule.h"
-
-  export *
-  module * { export * }
-}

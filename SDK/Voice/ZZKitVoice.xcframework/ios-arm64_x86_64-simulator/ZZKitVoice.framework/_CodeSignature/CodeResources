@@ -4,36 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/SportSDK.h</key>
-		<data>
-		BnGJewRY/oT5WoCxHoLkHzaaWYY=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		N4utjEVl3IAznaQ3HTeRFCSvxfw=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		HwseBnWjzaIjqcWooG+Bt2lhCtg=
+		C81azN/yOR4TAJ9WXO7Nw5FuU5w=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>Headers/SportSDK.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZFMtH6L20bpzyYkTo/q+roXjtM5K4mWfck2/TdeFTnk=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b4LlIa+o5NNAXIzzYcob08YA2rI9x+NWUc5yv7ur6PQ=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>

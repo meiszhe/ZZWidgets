@@ -1,6 +1,0 @@
-framework module SportSDK {
-  umbrella header "SportSDK.h"
-
-  export *
-  module * { export * }
-}

@@ -4,33 +4,41 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/MapModule.h</key>
+		<key>Headers/ZZApp.h</key>
 		<data>
-		8h+W4gQKxhsepPn76LZURFqzqvU=
+		nwa2Fr5rk0iec23ngFBIe4//Tn0=
+		</data>
+		<key>Headers/ZZKitCoreInternal.h</key>
+		<data>
+		ZU7FuavbBom1kFHb++SBLncjw2A=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		r7WXVqEPGyQso61mWih1QVCTARo=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		VGhcknB9ZTjPxVeyXL5tTVRfli4=
+		OD1JjN+Rtsmb14NIE+y8O5GY0Rk=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/MapModule.h</key>
+		<key>Headers/ZZApp.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			nwa2Fr5rk0iec23ngFBIe4//Tn0=
+			</data>
 			<key>hash2</key>
 			<data>
-			KzVXvoc34JqtISCILjMVYhP4NOrkTXkmfPxVtn8X96M=
+			qBnsv0hn/FaoRWy+42w6d0AcNUcIcK/nCSScv0w10nI=
 			</data>
 		</dict>
-		<key>Modules/module.modulemap</key>
+		<key>Headers/ZZKitCoreInternal.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ZU7FuavbBom1kFHb++SBLncjw2A=
+			</data>
 			<key>hash2</key>
 			<data>
-			4pAP3N6CzdCYTynqmsee1ZtdK13QYgUjT7YCHp+kVAw=
+			O0vGjXefNTgR0zXCJvZ3MGlEXtjtTCV+FATL6EpL/Ew=
 			</data>
 		</dict>
 	</dict>
