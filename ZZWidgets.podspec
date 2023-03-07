@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZWidgets'
-  s.version          = '1.0.3.0'
+  s.version          = '1.0.3.1'
   s.summary          = 'A short description of ZZWidgets.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -39,9 +39,9 @@ TODO: Add long description of the pod here.
   end
 
   s.subspec 'Log' do |log_module|
-    rum_module.vendored_frameworks = "SDK/Log/ZZKitLog.xcframework"
-    rum_module.frameworks = 'Foundation'
-    rum_module.dependency 'ZZWidgets/Core'
+    log_module.vendored_frameworks = "SDK/Log/ZZKitLog.xcframework"
+    log_module.frameworks = 'Foundation'
+    log_module.dependency 'ZZWidgets/Core'
   end
 
 end
