@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ZZWidgets"
-  s.version          = '1.1.0.4'
+  s.version          = '1.1.0.5'
   s.summary          = 'A short description of ZZWidgets.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -19,8 +19,8 @@ TODO: Add long description of the pod here.
   s.author           = { 'meiszhe' => 'meiszhe1@163.com' }
   s.source           = { :git => 'https://github.com/meiszhe/ZZWidgets.git', :tag => s.version.to_s }
 
-  s.platform     = :ios, "8.0"
-  s.ios.deployment_target = "8.0"
+  s.platform     = :ios, "9.0"
+  s.ios.deployment_target = "9.0"
 
   s.frameworks = "UIKit", "Foundation"
 
