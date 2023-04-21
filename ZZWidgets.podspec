@@ -7,7 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.version          = '1.1.0.2'
+  s.name             = "ZZWidgets"
+  s.version          = '1.1.0.3'
   s.summary          = 'A short description of ZZWidgets.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
