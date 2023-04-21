@@ -7,8 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ZZWidgets'
-  s.version          = '1.1.0.1'
+  s.version          = '1.1.0.2'
   s.summary          = 'A short description of ZZWidgets.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -28,27 +27,33 @@ TODO: Add long description of the pod here.
   # spec.libraries = "iconv", "xml2"
   s.libraries = "resolv", "c++"
 
-  s.subspec 'C' do |core|
-    core.vendored_frameworks = 'SDK/Core/BonreeCore.xcframework'
-  end
+  s.vendored_frameworks = 'SDK/Core/BonreeCore.xcframework', 'SDK/Business/BonreeBusiness.xcframework'
 
-  s.subspec 'B' do |business|
-    business.vendored_frameworks = 'SDK/Business/BonreeBusiness.xcframework'
-    business.dependency 'ZZWidgets/C'
-  end
+  #############################
 
-  s.subspec 'R' do |rum|
-    rum.vendored_frameworks = 'SDK/RUM/BonreeRUM.xcframework'
-    rum.dependency 'ZZWidgets/C'
-    rum.dependency 'ZZWidgets/B'
-  end
 
-  s.subspec 'L' do |log|
-    log.vendored_frameworks = 'SDK/Log/BonreeLog.xcframework'
-    log.dependency 'ZZWidgets/C'
-    log.dependency 'ZZWidgets/B'
-    log.version = '1.1.0.1'
-  end
+
+  # s.subspec 'C' do |core|
+  #   core.vendored_frameworks = 'SDK/Core/BonreeCore.xcframework'
+  # end
+
+  # s.subspec 'B' do |business|
+  #   business.vendored_frameworks = 'SDK/Business/BonreeBusiness.xcframework'
+  #   business.dependency 'ZZWidgets/C'
+  # end
+
+  # s.subspec 'R' do |rum|
+  #   rum.vendored_frameworks = 'SDK/RUM/BonreeRUM.xcframework'
+  #   rum.dependency 'ZZWidgets/C'
+  #   rum.dependency 'ZZWidgets/B'
+  # end
+
+  # s.subspec 'L' do |log|
+  #   log.vendored_frameworks = 'SDK/Log/BonreeLog.xcframework'
+  #   log.dependency 'ZZWidgets/C'
+  #   log.dependency 'ZZWidgets/B'
+  #   log.version = '1.1.0.1'
+  # end
   ########################
 
   # s.subspec 'Core' do |core|
