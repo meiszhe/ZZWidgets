@@ -1,0 +1,6 @@
+framework module BonreeBusiness {
+  umbrella header "BonreeBusiness.h"
+
+  export *
+  module * { export * }
+}

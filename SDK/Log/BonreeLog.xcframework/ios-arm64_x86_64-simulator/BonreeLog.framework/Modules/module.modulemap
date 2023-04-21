@@ -1,0 +1,6 @@
+framework module BonreeLog {
+  umbrella header "BonreeLog.h"
+
+  export *
+  module * { export * }
+}

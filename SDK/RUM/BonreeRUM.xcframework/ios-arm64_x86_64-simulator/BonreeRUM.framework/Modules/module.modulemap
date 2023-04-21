@@ -1,0 +1,6 @@
+framework module BonreeRUM {
+  umbrella header "BonreeRUM.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module BonreeCore {
+  umbrella header "BonreeCore.h"
+
+  export *
+  module * { export * }
+}
