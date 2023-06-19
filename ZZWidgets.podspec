@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ZZWidgets"
-  s.version          = '1.1.0.5'
+  s.version          = '1.1.0.6'
   s.summary          = 'A short description of ZZWidgets.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.dependency 'SDWebImage', '5.14'
 
-  s.vendored_frameworks = 'SDK/Core/BonreeCore.xcframework'
+  # s.vendored_frameworks = 'SDK/Core/BonreeCore.xcframework'
 
   #############################
 
