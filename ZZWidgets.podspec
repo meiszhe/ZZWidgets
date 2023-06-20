@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ZZWidgets"
-  s.version          = '1.1.0.6'
+  s.version          = '1.1.0.7'
   s.summary          = 'A short description of ZZWidgets.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   # spec.libraries = "iconv", "xml2"
   s.libraries = "resolv", "c++"
 
-  s.dependency 'SDWebImage', '5.14'
+  # s.dependency 'SDWebImage', '5.14'
 
   # s.vendored_frameworks = 'SDK/Core/BonreeCore.xcframework'
 
@@ -45,11 +45,9 @@ TODO: Add long description of the pod here.
   #   business.dependency 'ZZWidgets/C'
   # end
 
-  # s.subspec 'R' do |rum|
-  #   rum.vendored_frameworks = 'SDK/RUM/BonreeRUM.xcframework'
-  #   rum.dependency 'ZZWidgets/C'
-  #   rum.dependency 'ZZWidgets/B'
-  # end
+  s.subspec 'R' do |rum|
+    rum.dependency 'SDWebImage', '5.14'
+  end
 
   # s.subspec 'L' do |log|
   #   log.vendored_frameworks = 'SDK/Log/BonreeLog.xcframework'
